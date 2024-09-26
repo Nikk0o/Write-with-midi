@@ -10,7 +10,7 @@
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "../blibliotecas/Error.h"
+#include "Error.h"
 
 enum state { pressed, released };
 typedef char __8bit;
