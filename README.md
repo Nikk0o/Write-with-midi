@@ -1,5 +1,6 @@
 A simple program written in C that takes input from a midi device and lets you write text with it.\
 Only works on linux
+If you want to change the keymap, just change or add values in the keymap.c file
 
 ## Build instructions
 
