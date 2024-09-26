@@ -6,3 +6,8 @@ Only works on linux
 - Make sure the midipath string in the main function matches the path of the device file you want to read from
 - Use make to compile the program
 - Run it with make run
+
+## For future me:
+
+- Make it get the midi input automatically
+- Make other versions for other operating systems
