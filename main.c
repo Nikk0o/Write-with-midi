@@ -10,6 +10,8 @@
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
+
+#include "keymap.h"
 #include "Error.h"
 
 enum state { pressed, released };
@@ -31,12 +33,6 @@ struct _midi_data
 * (probably will need different implementations depending on the user's OS)
 */
 void list_devices();
-
-/*
-* Return a char that corresponds to a given note value
-* This function is defined in the getcharnote.c to make this file cleaner
-*/
-int get_char_note(unsigned int note_num);
 
 /*
 * reads the midi input from the file specified by the file descriptor fp

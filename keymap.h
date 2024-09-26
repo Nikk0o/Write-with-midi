@@ -1,5 +1,9 @@
     #include <linux/input-event-codes.h>
 
+    /*
+    * Return a char that corresponds to a given note value
+    * This function is defined in the getcharnote.c to make this file cleaner
+    */
     int get_char_note(unsigned int note_num)
     {
         int note = KEY_RESERVED; // 0 will be nothing
